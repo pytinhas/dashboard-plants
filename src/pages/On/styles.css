@@ -1,0 +1,71 @@
+header h1 {
+  text-align: center;
+  
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: var(--base-color-second);
+}
+
+.container {
+  max-width: 50%;
+  margin: 0 auto;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .title {
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+}
+
+.container img {
+  width: 6.25rem;
+  height: 6.25rem;
+  border: none;   
+}
+
+.container #apiResult {
+  background: var(--base-color-second);
+  color: white;
+  text-align: center;
+  width: 6.25rem;
+}
+
+.container p a {
+  color: white;
+}
+
+.waterPump {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.waterPump img {
+  width: 6.25rem;
+  height: 6.25rem;
+}
+
+.waterPump a {
+  color: white;
+  text-decoration: none;
+}
+
+.waterPump button {
+  background-color: #00875F;
+  width: 6.25rem;  
+  border-radius: 5px;
+  color: #fff;  
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.waterPump button:hover {
+  background: #48875F;
+}
+
+
+
