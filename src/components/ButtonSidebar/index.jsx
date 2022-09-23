@@ -14,7 +14,7 @@ export function ButtonSidebar(props) {
       navigate('../About')
       
       if(props.estado == 'Contato')
-      navigate('../Contato') 
+      navigate('../Contact') 
   }
 
   return (
