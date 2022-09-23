@@ -36,7 +36,5 @@ O arquivo main.jsx terá a função de renderizar o componente <App /> e inserir
 
 ```
 
-##
-![tela1](https://user-images.githubusercontent.com/82118386/187218191-fdf89cca-e5de-4297-a8f2-d33d26129de8.png)
 
-![tela2](https://user-images.githubusercontent.com/82118386/187219467-624c46ab-3ed1-4299-b79b-2184bc2d6aac.png)
+
