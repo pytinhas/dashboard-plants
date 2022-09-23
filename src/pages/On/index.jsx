@@ -2,6 +2,7 @@ import React, { useEffect, useState} from 'react';
 import axios from 'axios';
 import './styles.css';
 
+import { Sidebar } from '../../components/Sidebar'
 import { Button} from '../../components/Button';
 
 export function On() {
@@ -21,45 +22,47 @@ export function On() {
   }, [])
 
   return (
-    <>
-      <header>
-        <h1>Dashboard Plants</h1>
-      </header>
+    <div class="page">
+      <Sidebar />     
 
       <div class="container">        
-        <div >
-          <p class="title">Temperature</p>
-          <img src="../src/assets/termometro1.png" />
+        <h1>Dashboard Plants</h1>
+        <div class="itens">
+          <div >
+            <p class="title">Temperature</p>
+            <img src="../src/assets/termometro1.png" />
+            <p id="apiResult">
+            {values.temperature}
+            </p>
+        </div>        
+
+        <div>
+          <p class="title">Humidity</p>
+          <img src="../src/assets/gota.png" alt="" />
           <p id="apiResult">
-           {values.temperature}
+            {values.humidity}
           </p>
-      </div>        
+        </div>
 
-      <div>
-        <p class="title">Humidity</p>
-        <img src="../src/assets/gota.png" alt="" />
-        <p id="apiResult">
-          {values.humidity}
-        </p>
-      </div>
+        <div>
+          <p class="title">Sun</p>
+          <img src="../src/assets/sol.png" alt="" />
+          <p id="apiResult">
+            {values.sun}
+          </p>
+        </div>
 
-      <div>
-        <p class="title">Sun</p>
-        <img src="../src/assets/sol.png" alt="" />
-        <p id="apiResult">
-          {values.sun}
-        </p>
-      </div>
+        <div>
+          <p class="title">WaterPump</p>
+          <img src="../src/assets/lampada.png" alt="" />
+          <br></br>  
+          <Button estado="OFF" />      
+        </div>
 
-      <div>
-        <p class="title">WaterPump</p>
-        <img src="../src/assets/lampada.png" alt="" />
-        <br></br>  
-        <Button estado="OFF" />      
-      </div>
+        </div>
         
     </div>      
-  </>
+  </div>
   )
 }
 
