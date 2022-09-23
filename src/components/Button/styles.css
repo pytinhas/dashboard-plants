@@ -3,6 +3,7 @@ button {
   background-color: #00875F;
   width: 6.25rem;
   height: 1.5rem;
+  font-size: 1.0rem;
   border-radius: 5px;
   color: #fff;  
   cursor: pointer;
