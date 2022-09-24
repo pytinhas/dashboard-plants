@@ -9,9 +9,9 @@ export function Off() {
       <div class="page">
         <Sidebar />
         <div class="waterPump">
-        <h1>Dashboard Plants</h1>                       
+          <h1>Dashboard Plants</h1>         
           <img src="../src/assets/lampada.png" alt="" />                
-            <Button estado="ON" />
+          <Button estado="ON" />                               
         </div>
     </div>
     );

@@ -4,7 +4,8 @@
 }
 
 aside {
-  background-color: var(--base-color-alt);  
+  background-color: var(--base-color-alt); 
+  border: 1px solid rede; 
 }
 
 .logo {
@@ -18,6 +19,12 @@ aside {
   height: 70px;
   margin: 0 40px;  
   margin-top: 40px;
+}
+
+.btn-sidebar {
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
 }
 
 

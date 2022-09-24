@@ -10,11 +10,11 @@ export function Sidebar() {
           <img src="https://avatars.githubusercontent.com/u/112397871?s=200&v=4" />
           <span>Organization</span>
         </div>
-        
+        <div class="btn-sidebar">
           <ButtonSidebar estado="Home" />
           <ButtonSidebar estado="Sobre" />
-          <ButtonSidebar estado="Contato" />                   
-        
+          <ButtonSidebar estado="Contato" />  
+        </div>
       </aside>
     </div>
   )

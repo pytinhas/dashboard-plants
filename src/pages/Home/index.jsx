@@ -8,7 +8,7 @@ export function Home() {
         <Sidebar />
         <div class="pagina-inicial">      
           <h1>Bem Vindo !!</h1>                         
-            <Button estado="Entrar" />
+          <Button estado="Entrar" />
         </div>
       </div>
     );
