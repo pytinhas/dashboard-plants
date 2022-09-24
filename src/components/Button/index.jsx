@@ -10,7 +10,7 @@ export function Button(props) {
      } else {
       navigate('../Off')
      }
-   }    
+    }    
 
   return (
     <>

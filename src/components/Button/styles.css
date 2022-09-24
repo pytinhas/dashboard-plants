@@ -8,6 +8,7 @@ button {
   color: #fff;  
   cursor: pointer;
   transition: background 0.3s;
+  margin: 0 auto;
 }
 
 button:hover {

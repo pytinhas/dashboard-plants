@@ -13,7 +13,7 @@ export function ButtonSidebar(props) {
     if(props.estado == 'Sobre')
       navigate('../About')
       
-      if(props.estado == 'Contato')
+    if(props.estado == 'Contato')
       navigate('../Contact') 
   }
 

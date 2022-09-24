@@ -1,8 +1,5 @@
-import React from 'react';
+import { Sidebar } from '../../components/Sidebar';
 import './styles.css';
-
-import { Sidebar } from '../../components/Sidebar'
-
 
 export function About() { 
     return (
@@ -11,6 +8,6 @@ export function About() {
         <div class="pagina-sobre">      
           <h1>Sobre</h1>            
         </div>
-    </div>
+      </div>
     );
 }

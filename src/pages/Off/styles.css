@@ -14,16 +14,3 @@
   margin-top: 3rem;;
 }
 
-button {
-  background-color: #00875F;
-  width: 6.25rem;
-  
-  border-radius: 5px;
-  color: #fff;  
-  cursor: pointer;
-  transition: background 0.3s;
-}
-
-button:hover {
-  background: #48875F;
-}

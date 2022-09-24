@@ -1,8 +1,6 @@
-import React from 'react';
-import './styles.css';
-
 import { Sidebar } from '../../components/Sidebar'
 import { Button } from '../../components/Button';
+import './styles.css';
 
 export function Home() { 
     return (
@@ -12,6 +10,6 @@ export function Home() {
           <h1>Bem Vindo !!</h1>                         
             <Button estado="Entrar" />
         </div>
-    </div>
+      </div>
     );
 }
