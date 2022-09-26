@@ -2,15 +2,16 @@ import {useNavigate} from 'react-router-dom';
 import './styles.css';
 
 export function Button(props) {  
+
   const navigate = useNavigate();
 
-   function MudarPagina() {
+  function MudarPagina() {
     if (props.estado == "ON") {        
-        navigate('../On')         
-     } else {
+      navigate('../On')         
+    }else {
       navigate('../Off')
-     }
-    }    
+    }
+  }    
 
   return (
     <>

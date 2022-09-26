@@ -2,7 +2,6 @@ import { ButtonSidebar } from '../ButtonSidebar';
 import './styles.css';
 
 export function Sidebar() { 
-
   return (
     <div class="page">
       <aside>
